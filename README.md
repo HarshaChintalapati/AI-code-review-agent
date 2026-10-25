@@ -9,7 +9,7 @@ Built with Claude (Anthropic), ChromaDB, PyGithub, and Streamlit.
 - Triggers automatically on every new Pull Request via GitHub webhooks
 - Reviews the diff using Claude with team-specific context injected from memory
 - Posts a structured review comment directly to the PR
-- Learns from feedback — approved reviews get stored as reusable patterns in ChromaDB
+- Learns from feedback, approved reviews get stored as reusable patterns in ChromaDB
 - Gets smarter the more your team uses it
 
 ## Architecture
